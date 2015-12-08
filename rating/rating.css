@@ -1,0 +1,51 @@
+body{
+	height:100%
+}
+#rating {
+	float:left;
+	margin:30px 25px;
+}
+#rating_stars {
+	float:left;
+	min-width:90px;
+}
+.rating_star, .rating_star_a  {
+	display:inline-block;
+	float:left;
+	width: 18px;
+	height: 16px;
+	cursor: pointer;
+}
+.rating_star {
+	background: url(images/stars.png) no-repeat;
+}
+.rating_star_a {
+	background: url(images/stars.png) no-repeat 0 -16px;
+}
+
+button#rating_but {
+	margin-top:80px;
+	font: 11px Verdana, sans-serif;
+	border:none;
+	width: 84px;
+	height: 20px;
+	background: url(images/button.png) no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+button#rating_but:focus {
+	outline: none;
+	background: url(images/button_focus.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+button#rating_but:hover {
+	background: url(images/button_hover.png) no-repeat;
+	background-size: 100% 100%;
+}
+button#rating_but:active {
+	outline: none;
+	background: url(images/button_pressed.png) no-repeat;
+	background-size: 100% 100%;
+}
