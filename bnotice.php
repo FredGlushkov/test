@@ -24,5 +24,5 @@ if (CModule::IncludeModule("sale") && CModule::IncludeModule("main")):
 		CEvent::SendImmediate("BASKET_NOTICE", "s1", array("USER_MAIL"=>$arUser["EMAIL"], "NAME"=>$arUser["NAME"]." ".$arUser["LAST_NAME"], "GOODS"=>$goods));
 	}
 endif;
-// что то новое
+// что то
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");?>
